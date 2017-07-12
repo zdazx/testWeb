@@ -13,4 +13,5 @@ public interface IUsertypeDAO {
 	public List<Usertype> findByRemtime(String remtime) throws Exception ;
 	public boolean findLogin(Usertype usertype) throws Exception;
 	public Usertype findId(int rem) throws Exception;
+        /*用来测试git 成功or失败*/
 } 
