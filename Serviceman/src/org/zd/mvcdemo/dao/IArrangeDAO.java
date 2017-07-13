@@ -11,7 +11,7 @@ public interface IArrangeDAO {
 	public List<Arrange> findByAgid(int agid) throws Exception ;   //根据客户ID查询
 	public List<Arrange> findByAcltid(int acltid) throws Exception ;
 	public List<Arrange> findByArep(int arepid) throws Exception ;
-	public List<Arrange> findByAresp(String aresp) throws Exception ; //根据处理状态查找
+	public List<Arrange> findByAresp(String aresp) throws Exception ; //根据处理状态查找testing
 	 //根据负责维修工人查找
 	public List<Arrange> findByAtime(String atime ) throws Exception ;
 	public Arrange findId(int aid) throws Exception;
